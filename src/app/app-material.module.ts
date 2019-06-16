@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatCheckboxModule} from '@angular/material';
+import {MatCheckboxModule, MatTreeModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
 import {MatInputModule} from '@angular/material/input';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
@@ -68,7 +68,8 @@ import {BrowserModule} from '@angular/platform-browser';
     MatSnackBarModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTreeModule
   ],
   exports: [
     BrowserModule,
@@ -103,7 +104,8 @@ import {BrowserModule} from '@angular/platform-browser';
     MatSnackBarModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTreeModule
   ],
 })
 export class MaterialModule { }
